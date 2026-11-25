@@ -1,0 +1,64 @@
+main{
+    background-color: var(--gray-500);
+
+    #projects{
+        display: grid;
+        grid-template-columns: ifr;
+        justify-items: center;
+
+        header{
+            margin: 72px 163px 56px 163px;
+            display: grid;
+            gap: 8px;
+            
+            .subtitle{
+                font: var(--subtitle);
+                color: var(--red);
+            }
+
+            .title-md{
+                font: var(--title-md);
+                color: var(--gray-100);
+            }
+        }
+
+        .grid{
+            display: grid;
+            width: 1040px;
+            grid-template-areas: 
+            "A B C"
+            "D E F";
+            gap: 24px;
+
+            a{
+                text-decoration: none;
+                background-color: var(--gray-400);
+                border-radius: 12px;
+
+                .project{
+                    img{
+                        width: 306px;
+                        border-radius: 8px;
+                        margin: 12px 12px 0 12px;
+                    }
+
+                    .text-section{
+                        margin: 20px 12px 17px 12px;
+
+                        .title-sm{
+                            font: var(--title-sm);
+                            color: var(--gray-100);
+                        }
+
+                        .text-sm{
+                            font: var(--text-sm);
+                            color: var(--gray-200);
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }
+}
