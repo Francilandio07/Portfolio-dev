@@ -163,4 +163,8 @@ header{
         margin-bottom: 57px;
     }
 
+    #double-down:hover{
+        border: solid 2px var(--gray-300);
+    }
+
 }

@@ -7,10 +7,10 @@ main{
         justify-items: center;
 
         header{
-            margin: 72px 163px 56px 163px;
+            margin-block: 72px 56px;
             display: grid;
             gap: 8px;
-            
+
             .subtitle{
                 font: var(--subtitle);
                 color: var(--red);
@@ -29,6 +29,7 @@ main{
             "A B C"
             "D E F";
             gap: 24px;
+            margin-bottom: 144px;
 
             a{
                 text-decoration: none;
@@ -57,6 +58,10 @@ main{
                     }
 
                 }
+            }
+
+            a:hover{
+                border: solid 3px var(--gray-300);
             }
         }
 
