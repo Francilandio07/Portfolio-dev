@@ -11,6 +11,7 @@
 [![Phosphor Icons](assets/badges/phosphor-icons.svg)](https://phosphoricons.com/)
 [![Zero dependencies](assets/badges/zero-dependencies.svg)](#stack-tecnológica)
 
+[![Live Demo](assets/badges/live-demo.svg)](https://francilandio07.github.io/Portfolio-dev/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francilandio-lima-dev/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Francilandio07)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/francilandiolima_fls/)
@@ -18,7 +19,7 @@
 
 </div>
 
-<!-- Nota: os badges "Phosphor Icons" e "Zero dependencies" são SVGs hospedados localmente em assets/badges.
+<!-- Nota: os badges "Live Demo", "Phosphor Icons" e "Zero dependencies" são SVGs hospedados localmente em assets/badges.
      Algumas URLs do shields.io são rejeitadas/expiram no proxy camo do GitHub, exibindo a imagem quebrada.
      Para atualizá-los, baixe o SVG desejado de https://img.shields.io e substitua o arquivo correspondente. -->
 
@@ -35,7 +36,6 @@
 - [Design system](#design-system)
 - [Como executar](#como-executar)
 - [Deploy (GitHub Pages)](#deploy-github-pages)
-- [Roadmap](#roadmap)
 - [Autor](#autor)
 - [Licença](#licença)
 
@@ -61,7 +61,16 @@ O foco da implementação está em **CSS moderno**: um sistema de design baseado
 
 ## Demonstração
 
-> A versão publicada via GitHub Pages ainda não está disponível. Enquanto isso, execute o projeto localmente seguindo a seção [Como executar](#como-executar) ou publique-o com as instruções de [Deploy](#deploy-github-pages).
+O projeto está publicado via **GitHub Pages** e pode ser acessado em:
+
+**[https://francilandio07.github.io/Portfolio-dev/](https://francilandio07.github.io/Portfolio-dev/)**
+
+| Recurso | Endereço |
+| --- | --- |
+| Portfólio publicado | [francilandio07.github.io/Portfolio-dev](https://francilandio07.github.io/Portfolio-dev/) |
+| Repositório | [github.com/Francilandio07/Portfolio-dev](https://github.com/Francilandio07/Portfolio-dev) |
+
+> A versão publicada acompanha a branch `master`. Para rodar o projeto na sua máquina, siga a seção [Como executar](#como-executar).
 
 ---
 
@@ -206,45 +215,37 @@ Depois acesse `http://localhost:5500`.
 
 ## Deploy (GitHub Pages)
 
-Por ser um site 100% estático, a publicação é feita sem qualquer processo de compilação:
+O site está no ar em **[francilandio07.github.io/Portfolio-dev](https://francilandio07.github.io/Portfolio-dev/)** e é servido diretamente da branch `master`, sem etapa de compilação:
 
-1. Envie o projeto para o repositório `Portfolio-dev` no GitHub.
-2. No repositório, acesse **Settings → Pages**.
-3. Em **Source**, selecione **Deploy from a branch**.
-4. Escolha a branch `master` (ou `main`) e a pasta `/ (root)`.
-5. Clique em **Save** e aguarde a publicação.
+| Configuração | Valor |
+| --- | --- |
+| **Source** | Deploy from a branch |
+| **Branch** | `master` |
+| **Pasta** | `/ (root)` |
+| **Build** | Nenhum (arquivos estáticos) |
 
-A URL final seguirá o padrão:
+**Fluxo de atualização:**
 
-```text
-https://<usuario>.github.io/Portfolio-dev/
-```
+1. Faça as alterações localmente e valide abrindo o `index.html`.
+2. Execute `git add`, `git commit` e `git push` para a branch `master`.
+3. O GitHub Pages inicia o deploy automaticamente (leva cerca de 1 minuto).
+4. Recarregue a URL publicada para conferir as mudanças.
 
-> Após o primeiro deploy, adicione o link na seção [Demonstração](#demonstração) deste README.
+**Como reproduzir essa configuração em um fork ou novo repositório:**
 
----
-
-## Roadmap
-
-- [x] Estrutura base em HTML5 semântico
-- [x] Design system com *custom properties* e tipografia modular
-- [x] Seção de apresentação com *tags* da stack
-- [x] Seção de projetos com 15 cards e thumbnails
-- [x] Seção de serviços
-- [x] Rodapé de contato com ícones e estados de *hover*
-- [ ] Publicação via GitHub Pages
-- [ ] Links dos projetos **Zingen** e **Refund** (atualmente em `#`)
-- [ ] Layout responsivo — hoje o grid de projetos (1040px) e os links de contato (400px) usam larguras fixas, sem `media queries`
-- [ ] Revisão de acessibilidade: foco visível, `aria-label` nos links de ícone e contraste dos textos secundários
-- [ ] Separação dos dados dos projetos em JSON, com renderização dinâmica
-- [ ] Tema claro / escuro
-- [ ] Limpeza do `<head>`: há três blocos de Google Fonts repetidos, `preconnect` duplicado e famílias que não são usadas (Alice, Archivo, Open Sans, Poppins)
+1. Acesse **Settings → Pages**.
+2. Em **Source**, selecione **Deploy from a branch**.
+3. Escolha a branch (`master` ou `main`) e a pasta `/ (root)`.
+4. Clique em **Save** e aguarde a publicação.
+5. A URL final seguirá o padrão `https://<usuario>.github.io/<repositorio>/`.
 
 ---
 
 ## Autor
 
 **Francilândio Lima** — Desenvolvedor Backend
+
+Portfólio publicado: <https://francilandio07.github.io/Portfolio-dev/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-francilandio--lima--dev-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francilandio-lima-dev/)
 [![GitHub](https://img.shields.io/badge/GitHub-Francilandio07-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Francilandio07)
