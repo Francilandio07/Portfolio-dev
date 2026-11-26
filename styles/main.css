@@ -66,4 +66,70 @@ main{
         }
 
     }
+
+    #services{
+        display: grid;
+        grid-template-columns: ifr;
+        justify-items: center;
+        background-color: var(--gray-600);
+
+        .header{
+            display: grid;
+            gap: 8px;
+            margin-block: 88px 56px;  
+
+            .subtitle{
+                font: var(--subtitle);
+                color: var(--red);
+            }
+
+            .title-md{
+                font: var(--title-md);
+                color: var(--gray-100);
+            }
+        }
+
+        .grid{
+            display: grid;
+            grid-auto-flow: column;
+            gap: 24px;
+            margin-bottom: 120px;
+
+            .card{
+                display: grid;
+                grid-auto-flow: row;
+                border: solid 2px var(--gray-500);
+                border-radius: 12px;
+    
+                .ph{
+                    font-size: 48px;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                }
+                .ph-devices{
+                    color: var(--purple);
+                }
+
+                .ph-hard-drives{
+                    color: var(--yellow);
+                }
+
+                .header{
+                    display: grid;
+                    gap: 8px;
+                    margin: 20px;
+
+                    .title-sm{
+                        font: var(--title-sm);
+                        color: var(--gray-100);
+                    }
+
+                    .text-sm{
+                        font: var(--text-sm);
+                        color: var(--gray-200);
+                    }
+                }
+            }
+        }
+    }
 }
