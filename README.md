@@ -8,8 +8,8 @@
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
-[![Phosphor Icons](https://img.shields.io/badge/Phosphor%20Icons-3C3C3C?style=for-the-badge&logo=phosphoricons&logoColor=white)](https://phosphoricons.com/)
-[![Zero dependencies](https://img.shields.io/badge/dependencies-0-82BC4F?style=for-the-badge)](#stack-tecnológica)
+[![Phosphor Icons](assets/badges/phosphor-icons.svg)](https://phosphoricons.com/)
+[![Zero dependencies](assets/badges/zero-dependencies.svg)](#stack-tecnológica)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francilandio-lima-dev/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Francilandio07)
@@ -17,6 +17,10 @@
 [![E-mail](https://img.shields.io/badge/E--mail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:francilandiolimaserafim832@gmail.com)
 
 </div>
+
+<!-- Nota: os badges "Phosphor Icons" e "Zero dependencies" são SVGs hospedados localmente em assets/badges.
+     Algumas URLs do shields.io são rejeitadas/expiram no proxy camo do GitHub, exibindo a imagem quebrada.
+     Para atualizá-los, baixe o SVG desejado de https://img.shields.io e substitua o arquivo correspondente. -->
 
 ---
 
@@ -114,6 +118,7 @@ Os estados de interação (`:hover`) aplicam borda e mudança de cor nos cards, 
 ```text
 Portfolio-dev/
 ├── assets/
+│   ├── badges/                    # SVGs locais dos badges do README
 │   ├── icons/                     # SVGs (GitHub, HTML, CSS, JS, Node, seta)
 │   └── images/                    # Foto de perfil, backgrounds e thumbnails (15)
 ├── styles/
