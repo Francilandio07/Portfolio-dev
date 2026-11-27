@@ -152,6 +152,11 @@ header{
                     -webkit-mask-size: contain;
                     mask-size: contain;
                 }
+
+                #python{
+                    width: 24px;
+                    height: 24px;
+                }
             }
         }
     }
