@@ -157,6 +157,11 @@ header{
                     width: 24px;
                     height: 24px;
                 }
+
+                #typescript{
+                    width: 24px;
+                    height: 24px;
+                }
             }
         }
     }
